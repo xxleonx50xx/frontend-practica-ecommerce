@@ -1,0 +1,42 @@
+.logo{
+    display: none;
+}
+.secondary-button, .button-down{
+    position: static;
+}
+.cards-container{
+    grid-template-columns: repeat(auto-fill, 240px);
+}
+.product-card{
+    width: 240px;
+}
+.product-card img{
+    height: 240px;
+}
+.menu{
+    display: none;
+}
+.navbar-left ul{
+    display: flex;
+}
+nav .navbar-right .navbar-email{
+    display: block;
+}
+@media (max-width:665px){
+    nav .navbar-left ul li:nth-child(5){
+        display: none;
+    }
+}
+@media (max-width:740px){
+    nav .navbar-left ul li:last-child{
+        display: none;
+    }
+}
+.product-detail{
+    width: 320px;
+}
+.product-detail-cart .my-order-container{
+    position: absolute;
+    right: 0;
+    width: 300px;
+}    
